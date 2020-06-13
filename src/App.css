@@ -1,96 +1,156 @@
-.App {
-  text-align: center;
+
+.navbar {
+    /* width: 100vw; */
+    background: #191970;
+    color:white;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar ul {
+    text-decoration: none;
+    list-style: none;    
+    margin: 0;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    width: auto;
 }
 
-.App-header2 {
-  background-color: #3d5380;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease 0s;
+    padding: 10px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
 }
 
-.Navbar-notScrolled {
-  width: 100%;
-  z-index: 9999;
-  position: fixed;  
-  background-color: #789fe7;
-  font-size: calc(5px + 2vmin);
-  min-height:6vh;
-  transition: 0.25s;
+.navbar ul li a:hover {
+    background: #ffffff;
+    color: #191970;
 }
 
-/* .Navbar-notScrolled:not([data-]){
-  width: 100%;
-  z-index: 9999;
-  position: fixed;  
-  background-color: #789fe7;
-  font-size: calc(5px + 2vmin);
-  min-height:6vh;
-  transition: 0.25s;
-  opacity: 0.5;
-} */
+/* FirstSlide ----------------------------------*/
 
-.NavText {
-  margin: 10px;
-  background-color: #789fe7;
-  color: white;
-  width: 100%;
+.firstSlide-container {
+    display: flex;
+    height: 48vw;
+    background: rgb(28, 42, 168);
+    color: white;
+    align-items: center;
+    justify-content: left;
+    padding:40px;
 }
 
-.NavText:hover {
-  background-color: #5a77ac;
-  cursor: pointer;
+.firstSlide-header {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 60px;
 }
 
-img {
-  max-width:100%;
-  height:auto;
+.firstSlide-header p {
+    color: rgb(47, 194, 186);
+    padding: 0 0 0 30px;
+    font-size: 3vw;
+    font-weight: 600;
 }
 
-.project-area {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.hello {
+    font-weight: 600;
+    font-size: 8vw;
+}
+ 
+
+/* Projects ---------------------------------- */
+
+.projects-container {
+    background: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-title {
+    font-weight: 700;
+    font-size: 6vw;
+    color: rgb(0, 0, 0);
+}
+
+.projects-cards-container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(116, 59, 32);
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    width:60vw; 
+
+}
+
+.projects-card {
+    /* background: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 3vw 0;
+}
+
+.projects-card img{
+    width: 50%;
+
+}
+
+.projects-card div {
+ background: rgb(28, 42, 168);
+ color: white;
+}
+
+.projects-card p {
+    font-weight: 200;
+    font-size: 1.3vw;
+    text-align: left;
+    padding: 1vw;
+}
+
+.projects-card button{
+    float: right;
+}
+
+/* Resume ----------------------------------- */
+
+.resume-container {
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-container img{
+    width: 40vw;
+    min-width: 350px;
+    margin: 6vw;
 }
 
 
+/* Footer ---------------------------------- */
 
-.App-link {
-  color: #61dafb;
-}
-
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+    display: flex;
+    height: 40px;
+    background: rgb(7, 7, 7);
+    color: white;
+    justify-content: center;
 }

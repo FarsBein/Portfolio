@@ -1,40 +1,77 @@
 import React from 'react';
-import { Col,Container } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
 import project_1 from '../../img/project_1.jpg'
+import '../../App.css';
+
 
 const Projects = () => {
     return (
-        <div className="App">
-            <header className="App-header2">
-                <Container>
-                    <br />
-                    <Row className="project-area">
-                        <Col>
-                            <img src={project_1} alt=""/>
-                        </Col>
-                        <Col>
-                            some info...
-                        </Col>                        
-                    </Row>
-                    <Row className="project-area">
-                        <Col>
-                            <img src={project_1} alt=""/>
-                        </Col>
-                        <Col>
-                            some info...
-                        </Col>                        
-                    </Row>
-                    <Row className="project-area">
-                        <Col>
-                            <img src={project_1} alt=""/>
-                        </Col>
-                        <Col>
-                            some info...
-                        </Col>                        
-                    </Row>
-                </Container>
-            </header>
+        <div className="projects-container">
+            <p className='projects-title'>PROJECTS</p>
+            <div className='projects-cards-container'>
+                <div className='projects-card'>
+                    <img src={project_1}/>
+                    <div>
+                        <p>
+                            Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, 
+                            CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
+                            Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, 
+                            CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
+                        </p>
+                        <button>Github</button>
+                    </div>
+                </div>
+                <div className='projects-card'>
+                    <img src={project_1}/>
+                    <div>
+                        <p>
+                            Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, 
+                            CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
+                        </p>
+                        <button>Github</button>
+                    </div>
+                </div>
+                <div className='projects-card'>
+                    <img src={project_1}/>
+                    <div>
+                        <p>
+                            Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, 
+                            CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
+                        </p>
+                        <button>Github</button>
+                    </div>
+                </div>
+                <div className='projects-card'>
+                    <img src={project_1}/>
+                    <div>
+                        <p>
+                            Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, 
+                            CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
+                        </p>
+                        <button>Github</button>
+                    </div>
+                </div>
+                <div className='projects-card'>
+                    <img src={project_1}/>
+                    <div>
+                        <p>
+                            Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, 
+                            CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
+                        </p>
+                        <button>Github</button>
+                    </div>
+                </div>
+                <div className='projects-card'>
+                    <img src={project_1}/>
+                    <div>
+                        <p>
+                            Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, 
+                            CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
+                        </p>
+                        <button>Github</button>                        
+                    </div>
+
+                </div>
+            </div>
         </div>
     );
 }
