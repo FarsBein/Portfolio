@@ -4,7 +4,12 @@ import '../../App.css';
 const Footer = () => {
     return (
         <footer>
-            Email: fars.bein@ryerson.ca
+            <div>
+                    Email: fars.bein@ryerson.ca
+                    <div>
+                        Github: <a href={"https://github.com/FarsBein/"}>FarsBein</a>
+                    </div>            
+            </div>
         </footer>
       );
 }

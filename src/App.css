@@ -1,27 +1,29 @@
+/* .app-container {
+    padding: 0 100px;
+    background: rgb(165, 164, 164);
+} */
 
 .navbar {
     /* width: 100vw; */
     background: #191970;
     color:white;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
 }
 
 .navbar ul {
-    text-decoration: none;
-    list-style: none;    
     margin: 0;
-
+    display: flex;
 }
 
 .navbar ul li {
-    display: inline-block;
+    list-style: none;
     padding: 0px 20px;
     width: auto;
 }
@@ -31,7 +33,6 @@
     color: white;
     transition: all 0.4s ease 0s;
     padding: 10px;
-    margin: 0;
     font-weight: 400;
     font-size: 17px;
 }
@@ -60,7 +61,7 @@
 }
 
 .firstSlide-header p {
-    color: rgb(47, 194, 186);
+    color: aqua;
     padding: 0 0 0 30px;
     font-size: 3vw;
     font-weight: 600;
@@ -75,24 +76,35 @@
 /* Projects ---------------------------------- */
 
 .projects-container {
-    background: rgb(240, 240, 240);
-    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: rgb(233, 232, 232);
+    color: rgb(0, 0, 0);
 }
 
 .projects-title {
     font-weight: 700;
     font-size: 6vw;
     color: rgb(0, 0, 0);
+    /* padding: 10px 0; */
+    padding-top: 10px;
+    margin: 0;
+}
+
+.projects-title-box {
+    background: hotpink;
+    color: hotpink;
+    height: 10px;
+    width: 100px;
+    margin: 0;
 }
 
 .projects-cards-container {
     display: flex;
     flex-direction: column;
-    background: rgb(116, 59, 32);
+    /* background: rgb(116, 59, 32); */
     justify-content: center;
     align-items: center;
     padding: 60px;
@@ -109,20 +121,20 @@
 }
 
 .projects-card img{
-    width: 50%;
-
+    width: 20vw;
 }
 
 .projects-card div {
- background: rgb(28, 42, 168);
- color: white;
+ /* background: rgb(28, 42, 168);
+ color: white; */
+ height: 10vw;
 }
 
 .projects-card p {
     font-weight: 200;
-    font-size: 1.3vw;
+    font-size: 1vw;
     text-align: left;
-    padding: 1vw;
+    padding: 10px;
 }
 
 .projects-card button{
@@ -134,6 +146,7 @@
 .resume-container {
     background: gray;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -150,7 +163,20 @@
 footer {
     display: flex;
     height: 40px;
-    background: rgb(7, 7, 7);
+    background: #191970;
     color: white;
-    justify-content: center;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+}
+
+footer div {
+    display: inline;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: aqua;
 }

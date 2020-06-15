@@ -11,14 +11,14 @@ import Resume from './Component/HomePage/Resume';
 function App() {
   const [scroll,setScroll] = useState (false)
   return (
-    <div className="scroll">
-      <Navbar />
-      <FirstSlide />
-      <Projects />
-      <Resume />
-      <Footer />
+      <div className="app-container">
+        <Navbar />
+        <FirstSlide />
+        <Projects />
+        <Resume />
+        <Footer />
 
-    </div>
+      </div>
   );
 }
 
