@@ -1,0 +1,35 @@
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.cards-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 30px 0 30px 0; 
+}
+.project-image {
+    width: 400px;
+}
+
+.resume-container {
+    padding: 40px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    letter-spacing: 1px;
+    word-spacing: 0.4px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+}
