@@ -1,7 +1,9 @@
-/* .app-container {
-    padding: 0 100px;
-    background: rgb(165, 164, 164);
-} */
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 450px; */
+}
 
 .navbar {
     /* width: 100vw; */

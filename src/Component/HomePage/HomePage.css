@@ -1,9 +1,9 @@
 .cards-container{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 10px;
+    align-items: center; */
+    margin-left: 10px;
     padding: 20px;
 }
 .cards-body {
@@ -11,14 +11,19 @@
     justify-content: center;
     align-items: center;
     max-width: 1000px;
-    margin: 30px 0 30px 0; 
+    margin: 30px; 
 }
 .project-image {
-    width: 400px;
+    max-width: 50%;
 }
 
 .resume-container {
     padding: 40px;
+}
+
+.point {
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -32,4 +37,9 @@
     font-style: normal;
     font-variant: normal;
     text-transform: capitalize;
+}
+
+.badges {
+    display: flex;
+    padding: 10px;
 }
