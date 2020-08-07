@@ -64,7 +64,7 @@ const Projects = () => {
                         <img className="project-image" src={project.image} alt={project.title}/>
                         <ReactBootStrap.Card.Body>
                             <ReactBootStrap.Card.Title>{project.title}</ReactBootStrap.Card.Title>
-                            <ReactBootStrap.Card.Text>
+                            <ReactBootStrap.Card.Text className="lead" style={{fontSize:"15px"}}>
                                 <div className='points'>
                                     {
                                         project.points.map(point => (
@@ -76,7 +76,7 @@ const Projects = () => {
                                 <div className='badges'>
                                     {
                                         project.tools.map(tool => (
-                                            <ReactBootStrap.Badge style={{margin:'5px'}} variant="dark">{tool}</ReactBootStrap.Badge>
+                                            <ReactBootStrap.Badge style={{marginRight:'5px'}} variant="dark">{tool}</ReactBootStrap.Badge>
                                         ))
                                     }
                                 </div>

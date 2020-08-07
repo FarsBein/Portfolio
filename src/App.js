@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import * as ReactBootStrap from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import FirstSlide from './Component/HomePage/FirstSlide'
@@ -13,12 +14,12 @@ function App() {
   return (
       <div >
         <Navbar />
-        <div className="app-container">
-          {/* <FirstSlide /> */}
-          <Projects />
-         
-        </div>
-        <Resume />
+
+          <FirstSlide />
+          <ReactBootStrap.Container>
+            <Projects />
+          </ReactBootStrap.Container>
+          <Resume />
         <Footer />  
       </div>
   );

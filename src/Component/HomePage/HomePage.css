@@ -3,8 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-    margin-left: 10px;
-    padding: 20px;
 }
 .cards-body {
     display: flex;
@@ -14,7 +12,7 @@
     margin: 30px; 
 }
 .project-image {
-    max-width: 50%;
+    max-width: 400px;
 }
 
 .resume-container {
