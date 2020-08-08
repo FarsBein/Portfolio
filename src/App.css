@@ -147,17 +147,17 @@
 /* Resume ----------------------------------- */
 
 .resume-container {
-    background: gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width:'750px';
 }
 
-.resume-container img{
-    width: 40vw;
-    min-width: 350px;
-    margin: 6vw;
+
+.resume-img{
+    max-width:'750px';
+    width:'100%'
 }
 
 

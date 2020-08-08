@@ -5,13 +5,14 @@ import '../App.css';
 const Navbar = () => {
     return (
         <ReactBootStrap.Navbar className="border-bottom justify-content-between" bg="transparent" expand="lg">
-          <ReactBootStrap.Navbar.Brand>Fars Bein</ReactBootStrap.Navbar.Brand>
+          <ReactBootStrap.Navbar.Brand href="/">Fars Bein</ReactBootStrap.Navbar.Brand>
           <ReactBootStrap.Navbar.Toggle className='border-0' aria-controls="navbar-toggle" />
           <ReactBootStrap.Navbar.Collapse id="navbar-toggle">
             <ReactBootStrap.Nav className="ml-auto">
-              <ReactBootStrap.Nav.Link href="#home">Resume</ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link href="#link">Projects</ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link href="#link">Contact</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/resume">Resume</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/projects">Projects</ReactBootStrap.Nav.Link>
+              {/* <ReactBootStrap.Nav.Link href="/contact">Contact</ReactBootStrap.Nav.Link> */}
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>        
