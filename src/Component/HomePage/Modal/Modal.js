@@ -16,7 +16,7 @@ export default function Modal({index}) {
             <ReactBootStrap.Button variant="light" onClick={handleShow} style={{marginLeft:'10px'}}>
                 Details
             </ReactBootStrap.Button>
-            <ReactBootStrap.Modal show={show} onHide={handleClose}>
+            <ReactBootStrap.Modal show={show} onHide={handleClose} className='modal-container'>
                 <ReactBootStrap.Modal.Header closeButton>
                 <ReactBootStrap.Modal.Title>Modal heading</ReactBootStrap.Modal.Title>
                 </ReactBootStrap.Modal.Header>

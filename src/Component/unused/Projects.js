@@ -1,7 +1,7 @@
 import React from 'react';
 import * as ReactBootStrap from "react-bootstrap";
 import project_1 from '../../img/project_1.jpg'
-import './HomePage.css';
+// import './HomePage.css';
 import { Carousel } from 'react-responsive-carousel';
 import { useState } from 'react';
 import projectsList from '../../Data/projectsList'

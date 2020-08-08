@@ -41,3 +41,17 @@
     display: flex;
     padding: 10px;
 }
+
+@media screen and (max-width:650px){
+    .p1 {
+        font-size: 50px;
+    }
+
+    .p2 {
+        font-size: 24px;
+    }
+
+    .p3 {
+        font-size: 14px;
+    }
+}    

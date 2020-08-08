@@ -3,7 +3,7 @@ import * as ReactBootStrap from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import FirstSlide from './Component/HomePage/FirstSlide'
-import Projects from './Component/HomePage/Projects'
+import Projects from './Component/unused/Projects'
 import Navbar from './Component/Navbar'
 import Footer from './Component/HomePage/Footer';
 import Resume from './Component/Resume/Resume';
