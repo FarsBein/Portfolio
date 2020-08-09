@@ -10,7 +10,7 @@ const FirstSlide = () => {
             Hi, my name is Fars!
           </div>
           <div className='p2 display-4 font-weight-light'>
-            A computer science student with great passion for software development...        
+            A computer science student with great passion for programming...        
           </div>      
           <div className='p3 lead font-weight-light'>
             Checkout my projects below           

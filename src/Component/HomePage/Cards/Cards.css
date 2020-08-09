@@ -3,6 +3,10 @@
     grid-template-columns: repeat(3, auto);
 }
 
+.card:hover{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
 @media screen and (max-width:1210px) {
     .cards-container {
         display: grid;

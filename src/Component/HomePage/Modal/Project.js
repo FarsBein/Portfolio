@@ -21,7 +21,6 @@ export default function Project({project}) {
                                     ))   
                                 }                                
                             </div>
-                            <div>{project.text}</div>
                             <div className='badges'>
                                 {
                                     project.tools.map(tool => (
