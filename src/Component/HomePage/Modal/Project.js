@@ -24,7 +24,7 @@ export default function Project({project}) {
                             <div className='badges'>
                                 {
                                     project.tools.map(tool => (
-                                        <ReactBootStrap.Badge style={{marginRight:'5px'}} variant="dark">{tool}</ReactBootStrap.Badge>
+                                        <ReactBootStrap.Badge style={{marginRight:'5px',fontSize:'15px'}} variant="dark">{tool}</ReactBootStrap.Badge>
                                     ))
                                 }
                             </div>
