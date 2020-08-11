@@ -11,18 +11,16 @@ import {HashRouter  as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
-      <div >
-        <Navbar />
-        <Router>
-          <Switch>            
-            {/* <Route path='/contact'><Contact /></Route> */}
-            <Route path='/projects'><Cards /></Route>
-            <Route path='/resume'><Resume /></Route>
-            <Route path='/'><FirstSlide /><Cards/></Route>
-          </Switch>
-        </Router>
-        <Footer />  
-      </div>
+    <Router>
+      <Navbar />
+      <Switch>            
+        {/* <Route path='/contact'><Contact /></Route> */}
+        <Route path='/projects'><Cards /></Route>
+        <Route path='/resume'><Resume /></Route>
+        <Route path='/'><FirstSlide /><Cards/></Route>
+      </Switch>
+      <Footer /> 
+    </Router>
   );
 }
 
