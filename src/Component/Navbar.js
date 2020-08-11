@@ -10,8 +10,8 @@ const Navbar = () => {
           <ReactBootStrap.Navbar.Collapse id="navbar-toggle">
             <ReactBootStrap.Nav className="ml-auto">
 
-              <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link href="/resume">Resume</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/portfolio/#/">Home</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/portfolio/#/resume">Resume</ReactBootStrap.Nav.Link>
               <td onClick={()=> window.open("https://www.github.com/FarsBein", "_blank")}><ReactBootStrap.Nav.Link>Github</ReactBootStrap.Nav.Link></td>
               
               {/* <ReactBootStrap.Nav.Link href="/projects">Projects</ReactBootStrap.Nav.Link> */}
