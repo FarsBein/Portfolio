@@ -5,6 +5,7 @@ import snake_gif from '../img/snake_gif.gif'
 import reddit_wallpaper from '../img/reddit_wallpaper.jpg'
 import project_1 from '../img/project_1.jpg'
 import TeemUp_hub from '../img/teamup2.gif'
+import CIC from '../img/CIC.gif'
 
 export default [
     {
@@ -12,7 +13,7 @@ export default [
         points: ['⛏️ Fetches and displays reported cases and covid related news from an open API','🖥️ Includes Testing locations in the Ontario area', '✍️ A Feedback page that uploads comments to MySQL database'],
         text:'Collaborated with a team to build a one-stop website for all coronavirus related information in order to raise awareness and provide resources for people that are seeking accurate live data',
         tools:['Javascript', 'HTML', 'CSS', 'MySQL', 'PHP', 'API'],
-        image: reddit_wallpaper,
+        image: CIC,
         github:'https://github.com/FarsBein/Coronavirus-Information-Centre'
     },
     {
