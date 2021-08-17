@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>            
-        {/* <Route path='/contact'><Contact /></Route> */}
+        <Route path='/contact'><Contact /></Route>
         <Route path='/projects'><Cards /></Route>
         <Route path='/resume'><Resume /></Route>
         <Route path='/'><FirstSlide /><Cards/></Route>

@@ -6,8 +6,24 @@ import reddit_wallpaper from '../img/reddit_wallpaper.jpg'
 import project_1 from '../img/project_1.jpg'
 import TeemUp_hub from '../img/teamup2.gif'
 import CIC from '../img/CIC.gif'
+import SV from '../img/search visualizer.gif'
+import GM from '../img/gitmeto.png'
 
 export default [
+    {
+        title:'Website Builder (Gitme)',
+        text:'Personal website builder that allows users to create personal websites using only their GitHub page',
+        tools:['python', 'pygame'],
+        image: GM,
+        github:'https://github.com/FarsBein/Gitme'
+    },
+    {
+        title:'Search Algorithm Visualizer',
+        text:'An interactive and fun search algorithm visualizer that compares two very popular algorithms commonalty used for searching searching BFS to DFS.',
+        tools:['python', 'pygame'],
+        image: SV,
+        github:'https://github.com/FarsBein/Search-Algorithm-Visualizer'
+    },
     {
         title:'Coronavirus Information Center',
         points: ['⛏️ Fetches and displays reported cases and covid related news from an open API','🖥️ Includes Testing locations in the Ontario area', '✍️ A Feedback page that uploads comments to MySQL database'],
