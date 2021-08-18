@@ -1,1 +1,1 @@
-My projects presented for easy access
+My projects presented nicely
