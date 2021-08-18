@@ -11,10 +11,13 @@ const FirstSlide = () => {
             Hi, my name is Fars!
           </div>
           <div className='p3 display-4 font-weight-light'>
-            A computer science student with great passion for software development ♥        
-          </div>      
+            I am a computer science student with great passion for software development ♥        
+          </div>   
+          <div className='p3 lead font-weight-light'>
+            &nbsp;I just happened to love solving problems and building stuff        
+          </div>     
           <div className='p4 lead font-weight-light'>
-            Checkout my projects below           
+            &nbsp;Checkout my projects below           
           </div> 
         </ReactBootStrap.Container>
       </ReactBootStrap.Jumbotron>
