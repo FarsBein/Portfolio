@@ -55,3 +55,8 @@
         font-size: 14px;
     }
 }    
+
+.side-way {
+    display: flex;
+    flex-wrap: wrap;
+}

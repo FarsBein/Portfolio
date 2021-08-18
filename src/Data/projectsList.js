@@ -8,12 +8,13 @@ import TeemUp_hub from '../img/teamup2.gif'
 import CIC from '../img/CIC.gif'
 import SV from '../img/search visualizer.gif'
 import GM from '../img/gitmeto.png'
+import CP from '../img/chesspy.gif'
 
 export default [
     {
         title:'Website Builder (Gitme)',
-        text:'Personal website builder that allows users to create personal websites using only their GitHub page',
-        tools:['python', 'pygame'],
+        text:'Personal website builder that allows users to create personal websites using their GitHub page only',
+        tools:['Javascript', 'Node', 'React', 'Express'],
         image: GM,
         github:'https://github.com/FarsBein/Gitme'
     },
@@ -41,6 +42,14 @@ export default [
         github:'https://github.com/FarsBein/Teemup-hub'
     },
     {
+        title:'Chess Game',
+        points: ['👌 Drag and drop to move pieces on pc','👇 Touch functionalities for mobile',],
+        text:'A two-player strategy board game with 64 squares arranged in an 8×8 grid.',
+        tools:['Python','Pygame'],
+        image: CP,
+        github:'https://github.com/FarsBein/python-chess'
+    },
+    {
         title:'Maze + A*',
         points: ['🧩 Generators random mazes','🖥️ Uses pygame to display and interact with the maze','🖱️ Can draw (left-click) and erase (right-click) on the maze','⌨️ Pressing Space will automatically solve the maze using A* algorithm'],
         text:'Generators random mazes, allows users to draw on the board or press space to solve the maze using a popular algorithm called A*',
@@ -56,14 +65,14 @@ export default [
         image: snake_gif,
         github:'https://github.com/FarsBein/snake-js'
     },
-    {
-        title:'Chess Game',
-        points: ['👌 Drag and drop to move pieces on pc','👇 Touch functionalities for mobile',],
-        text:'A two-player strategy board game with 64 squares arranged in an 8×8 grid. UI with no chess rules logic',
-        tools:['ReactJs','Javascript','CSS'],
-        image: chess_1,
-        github:'https://github.com/FarsBein/react-chess-game'
-    },
+    // {
+    //     title:'Chess Game',
+    //     points: ['👌 Drag and drop to move pieces on pc','👇 Touch functionalities for mobile',],
+    //     text:'A two-player strategy board game with 64 squares arranged in an 8×8 grid. UI with no chess rules logic',
+    //     tools:['ReactJs','Javascript','CSS'],
+    //     image: chess_1,
+    //     github:'https://github.com/FarsBein/react-chess-game'
+    // },
     {
         title:'Random Meme Maker',
         points: ['⚛️ Built using react classes','🖼️ Fetches random funny images from memeAPI','📱 Mobile friendly'],
