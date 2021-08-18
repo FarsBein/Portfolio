@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac615f2c8b986bf1ef2fcaebf77c464f",
+    "revision": "c5b58f3ab4543db0685d19ad736dd586",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "33c935c407787a78a522",
+    "revision": "4a7dc339cb0b27ce1880",
     "url": "/portfolio/static/css/2.9b79e585.chunk.css"
   },
   {
-    "revision": "a88debbbad08e01142e0",
-    "url": "/portfolio/static/css/main.5c860e3a.chunk.css"
+    "revision": "5e6805c65f17e46f875f",
+    "url": "/portfolio/static/css/main.9be52020.chunk.css"
   },
   {
-    "revision": "33c935c407787a78a522",
-    "url": "/portfolio/static/js/2.4a4ea028.chunk.js"
+    "revision": "4a7dc339cb0b27ce1880",
+    "url": "/portfolio/static/js/2.6e85be39.chunk.js"
   },
   {
     "revision": "9a2cf355ca348d84eedb0129142dc576",
-    "url": "/portfolio/static/js/2.4a4ea028.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.6e85be39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a88debbbad08e01142e0",
-    "url": "/portfolio/static/js/main.440875dc.chunk.js"
+    "revision": "5e6805c65f17e46f875f",
+    "url": "/portfolio/static/js/main.c4662f75.chunk.js"
   },
   {
     "revision": "f89f2099577e680dc7b6",
@@ -40,8 +40,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/chess_1.b79fe94b.jpg"
   },
   {
+    "revision": "7c0c52f0e2ebb31c2f53e094214ecef9",
+    "url": "/portfolio/static/media/chesspy.7c0c52f0.gif"
+  },
+  {
+    "revision": "e4e7d81684d09de80befe39bd6eae52d",
+    "url": "/portfolio/static/media/gitmeto.e4e7d816.png"
+  },
+  {
     "revision": "ccde188d6bb2f2b487c153ffd00f6b61",
     "url": "/portfolio/static/media/maze_gif.ccde188d.gif"
+  },
+  {
+    "revision": "1498facc42b717dc193093a6846c6e25",
+    "url": "/portfolio/static/media/me.1498facc.jpg"
   },
   {
     "revision": "69d4262558168e46e32668a4c5eb8621",
@@ -58,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "495a94ae853e1bb9f4bdb147b5db3dea",
     "url": "/portfolio/static/media/resume_web.495a94ae.pdf"
+  },
+  {
+    "revision": "667cfdff5c573330b88d006f4525950d",
+    "url": "/portfolio/static/media/search visualizer.667cfdff.gif"
   },
   {
     "revision": "f619bd15fef5246dd0cdc52b0a0d6215",
