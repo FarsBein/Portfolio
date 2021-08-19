@@ -20,7 +20,7 @@ export default [
     },
     {
         title:'Search Algorithm Visualizer',
-        text:'An interactive and fun search algorithm visualizer that compares two very popular algorithms commonalty used for searching searching BFS to DFS.',
+        text:'An interactive and fun search algorithm visualizer that compares two very popular algorithms commonly used for searching searching BFS to DFS.',
         tools:['python', 'pygame'],
         image: SV,
         github:'https://github.com/FarsBein/Search-Algorithm-Visualizer'
@@ -84,7 +84,7 @@ export default [
     {
         title:'Reddit Api wallpaper',
         points: ['⛏️ Fetches the hottest images in wallpaper and wallpapers subreddit.','🖥️ Changes background image automatically'],
-        text:'A simple script that changes the desktop wallpaper  to the hottest image on either wallpaper or wallpapers subreddit. Currently it only works on widows',
+        text:'A simple script that changes the desktop wallpaper to the hottest image on either wallpaper or wallpapers subreddit. Currently it only works on widows',
         tools:['Python'],
         image: reddit_wallpaper,
         github:'https://github.com/FarsBein/Reddit-Api-wallpaper'

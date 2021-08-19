@@ -13,11 +13,17 @@ const FirstSlide = () => {
           <div className='p3 display-4 font-weight-light'>
             I am a computer science student with great passion for software development ♥        
           </div>   
+          <br/>
           <div className='p3 lead font-weight-light'>
             &nbsp;I just happened to love solving problems and building stuff        
-          </div>     
+          </div>
           <div className='p4 lead font-weight-light'>
-            &nbsp;Checkout my projects below           
+            &nbsp;My contact:&nbsp;
+            <a href='mailto:fars.bein@ryerson.ca' alt='email'>fars.bein@ryerson.ca</a>  &nbsp;         
+            <a href='https://www.linkedin.com/in/farsbein/' alt='linkedin'>linkedin.com/in/farsbein</a> 
+          </div>      
+          <div className='p4 lead font-weight-light'>
+            &nbsp;Checkout my projects below ↓          
           </div> 
         </ReactBootStrap.Container>
       </ReactBootStrap.Jumbotron>
