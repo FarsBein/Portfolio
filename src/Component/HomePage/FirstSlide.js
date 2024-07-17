@@ -11,7 +11,7 @@ const FirstSlide = () => {
             Hi, my name is Fars!
           </div>
           <div className='p3 display-4 font-weight-light'>
-            I am a computer science student with great passion for software development ♥        
+            I’m a software developer with a passion for turning ideas into reality ♥        
           </div>   
           <br/>
           <div className='p3 lead font-weight-light'>
@@ -19,8 +19,8 @@ const FirstSlide = () => {
           </div>
           <div className='p4 lead font-weight-light'>
             &nbsp;My contacts:&nbsp;
-            <a href='mailto:fars.bein@ryerson.ca' alt='email'>fars.bein@ryerson.ca</a>  &nbsp;         
-            <a href='https://www.linkedin.com/in/farsbein/' alt='linkedin'>linkedin.com/in/farsbein</a> 
+            <a href='mailto:fars.bein@torontomu.ca' alt='email'>fars.bein@torontomu.ca</a>  &nbsp;         
+            <a href='https://www.linkedin.com/in/fars-bein/' alt='linkedin'>linkedin.com/in/fars-bein</a> 
           </div>      
           <div className='p4 lead font-weight-light'>
             &nbsp;Checkout some of my projects below ↓          
